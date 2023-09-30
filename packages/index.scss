@@ -1,0 +1,27 @@
+.multi-text-over {
+  height: 100%;
+  background: #fff;
+  position: relative;
+  word-break: break-all;
+
+  /* autoprefixer: off */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  white-space: normal;
+  overflow: hidden;
+
+  &-more {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+  }
+
+  &-icon {
+    margin-left: 4px;
+    color: #3a84ff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+}
